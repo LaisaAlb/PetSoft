@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Remover</title>
+</head>
+<body>
+    <div class="container">
+        <section class="head">
+            <img src="Ellipse 7.png" alt="Cículo" id="img1">
+            <img src="Vector.svg" alt="ícone" id="img2">
+            <h2 id="remover">Remover</h2>
+        </section>
+        <form class="form" action="/cadastrar" method="post">
+            <div class="form-content">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Simbas Farias" required>
+            </div>
+            <div class="form-content">
+                <label for="dono">Nome do Dono:</label>
+                <input type="text" id="dono" name="dono" placeholder="Emanoal Farias" required>
+            </div>
+            <div class="form-content">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(81) 9 9999-9999" required>
+            </div>
+            <div class="form-content">
+                <label for="animal">Tipo de Animal:</label>
+                <select id="animal" name="animal" required>
+                    <option value="">Selecione...</option>
+                    <option value="gato">Gato</option>
+                    <option value="cachorro">Cachorro</option>
+                </select>
+            </div>
+            <div class="form-content">
+                <label for="raca">Raça:</label>
+                <input type="text" id="raca" name="raca" placeholder="Poodle" required>
+            </div>
+            <div class="form-content">
+                <label for="nascimento">Nascimento:</label>
+                <input id="nascimento" name="nascimento" placeholder="22/08/2020">
+            </div>
+
+            <button type="submit" id="btn2" onclick="window.location.href='/Page/public/index/index.html'">Voltar</button>
+            <button type="submit" id="btn1">Remover</button>
+            
+        </form>
+    </div>
+
+</body>
+</html>

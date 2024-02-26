@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(316.01deg, #000814 15.31%, #001E4D 86.58%);
+    max-width: 800px;
+    max-height: 600px;
+    margin-left: 50px;
+    padding-top: 50px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: -20px;
+    margin-bottom: 20px; 
+}
+#pesquisa {
+    display: flex;
+    align-items: center; 
+    padding-top: 30px;
+}
+#pesquisa input[type="search"] {
+    border: 2px solid #404A5C;
+    border-radius: 7px;
+    width: 1000px;
+    font-size: 16px;
+    padding: 8px;
+    outline: none;
+    background: transparent;
+}
+#cadastro {
+    width: 150px;
+    height: 35px;
+    border: 1px solid transparent;
+    background: linear-gradient(90deg, #00CAFC 0%, #0056E2 100%);
+    color: white;
+    margin-left: 7px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    padding-left: 30px; 
+}
+#cadastro::before {
+    content: "+"; 
+    position: absolute;
+    left: 10px; 
+    top: 50%; 
+    transform: translateY(-50%);
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cadastro span {
+    position: relative;
+    top: -1px;
+}
+main ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+main li {
+    padding: 10px;
+    background: linear-gradient(316.01deg, #000814 15.31%, #001E4D 86.58%);
+    margin: 5px;
+    flex: 1 0 200px;
+    border-radius: 5px;
+    color: white;
+    height: 70px;
+}
+#img1 {
+    margin-left: -62px;
+    margin-top: -20px; 
+}
+
+p {
+    margin-left: 85px;
+    text-align: center;
+    position: relative; 
+    top: -60px; 
+}
+

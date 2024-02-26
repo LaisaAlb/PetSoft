@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: linear-gradient(316.01deg, #000814 15.31%, #001E4D 86.58%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 3px 17px #0056E2;
+    overflow: hidden;
+    color: white;
+}
+.head {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+#cadastrar {
+    display: flex; 
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#img1 {
+    position: relative; 
+    top: 4px;
+    left: -244px; 
+    z-index: 1; 
+}
+
+#img2 {
+    margin-left: -300px;
+    margin-top: 10px;
+    z-index: 0; 
+}
+.form {
+    padding: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.form-content {
+    margin-bottom: 18px;
+    width: calc(50% - 10px);
+}
+.form-content label {
+    display: block;
+    margin-bottom: 4px;
+}
+.form-content input,
+.form-content select {
+    width: calc(100% - 20px);
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid #404A5C;
+    background: transparent;
+}
+
+.form-content select {
+    width: calc(50% - 6px); 
+    color: white;
+}
+#nascimento{
+    color: white;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+#btn1 {
+    background: linear-gradient(90deg, #00CAFC 0%, #0056E2 100%);
+    color: #dfdfdf;
+    width: 48%;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+#btn2 {
+    background: white;
+    color: #347cef; 
+    width: 48%;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+
+
+
+
+

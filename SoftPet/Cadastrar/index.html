@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <section class="head">
+            <img src="Group.png" alt="Icone" id="img1">
+            <img src="/Remover/Ellipse 7.png" alt="Cículo" id="img2">
+            <h2 id="cadastrar">Cadastrar</h2>
+        </section>
+        <form class="form" id="cadastroForm" action="/cadastrar" method="post">
+            <div class="form-content">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Nome e Sobrenome" required>
+            </div>
+            <div class="form-content">
+                <label for="dono">Nome do Dono:</label>
+                <input type="text" id="dono" name="dono" placeholder="Nome Sobrenome" required>
+            </div>
+            <div class="form-content">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(00) 0 0000-0000" required>
+            </div>
+            <div class="form-content">
+                <label for="animal">Tipo de Animal:</label>
+                <select id="animal" name="animal" required>
+                    <option value="">Selecione...</option>
+                    <option value="gato">Gato</option>
+                    <option value="cachorro">Cachorro</option>
+                </select>
+            </div>
+            <div class="form-content">
+                <label for="raca">Raça:</label>
+                <input type="text" id="raca" name="raca" placeholder="Raça" required>
+            </div>
+            <div class="form-content">
+                <label for="nascimento">Nascimento:</label>
+                <input type="date" id="nascimento" name="nascimento" placeholder="22/08/2020">
+            </div>
+
+            <button type="button" id="btn2" onclick="voltar()">Voltar</button>
+            <button type="submit" id="btn1">Cadastrar</button>
+            
+        </form>
+    </div>
+              
+</body>
+</html>
+
+
+
+
+
+
+
+
+
